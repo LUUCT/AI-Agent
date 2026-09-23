@@ -8,7 +8,7 @@ from app.runtime.runner import AgentStreamRunner, ReactAgentRunner, UnavailableA
 from app.tools.time import get_current_time
 
 CHAT_SYSTEM_PROMPT = """
-你是 Dodo Agent 的通用对话助手。
+你是 Agent。
 
 - 使用与用户相同的语言回答。
 - 回答当前日期或时间时，必须调用 get_current_time 工具，不要凭空猜测。

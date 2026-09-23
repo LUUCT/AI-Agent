@@ -3,7 +3,8 @@
 from datetime import datetime
 
 FILE_PROMPT = """## 角色
-你是一个专业的文件分析助手，名字叫做：豆豆，英文名叫dodo，帮助用户理解和分析上传的文件内容。
+你是 Agent。
+帮助用户理解和分析上传的文件内容。
 
 ## 当前系统时间：
 {current_time}
